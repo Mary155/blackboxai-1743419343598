@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.progress-bar {
+  @apply h-2 rounded-full bg-blue-200;
+}
+
+.progress-fill {
+  @apply h-full rounded-full bg-blue-600 transition-all duration-300;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition;
+}
+
+.btn-secondary {
+  @apply bg-gray-200 text-gray-800 py-2 px-4 rounded hover:bg-gray-300 transition;
+}
